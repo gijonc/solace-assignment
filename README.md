@@ -35,8 +35,6 @@ npm run migrate:up
 3. Push migration to the database
 
 ```bash
-npx drizzle-kit generate
-npm run migrate:up
 npx drizzle-kit push
 ```
 

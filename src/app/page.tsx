@@ -87,7 +87,8 @@ export default function Home() {
         sanitizeString(advocate.city).includes(searchTerm) ||
         sanitizeString(advocate.degree).includes(searchTerm) ||
         sanitizeString(advocate.specialties).includes(searchTerm) ||
-        sanitizeString(advocate.yearsOfExperience).includes(searchTerm)
+        sanitizeString(advocate.yearsOfExperience).includes(searchTerm) ||
+        sanitizeString(advocate.phoneNumber).includes(searchTerm)
       );
     });
 

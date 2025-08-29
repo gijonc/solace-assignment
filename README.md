@@ -27,10 +27,16 @@ docker compose up -d
 ```
 
 2. Create a `solaceassignment` database.
+```bash
+npx drizzle-kit generate
+npm run migrate:up
+```
 
 3. Push migration to the database
 
 ```bash
+npx drizzle-kit generate
+npm run migrate:up
 npx drizzle-kit push
 ```
 
